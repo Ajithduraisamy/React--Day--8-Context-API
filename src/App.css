@@ -1,0 +1,25 @@
+.total {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    padding-top: 15px;
+  }
+  .card-title {
+    display: flex;
+    align-content: space-between;
+  }
+  .text-danger {
+    cursor: pointer;
+  }
+  .subtotal{
+    padding: 15px 0px;
+  }
+  .shipping{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sub{
+    display: flex;
+    justify-content: space-between;
+  }
