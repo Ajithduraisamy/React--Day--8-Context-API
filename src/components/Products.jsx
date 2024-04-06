@@ -48,8 +48,8 @@ function Products() {
                 <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     {product.map((product) => (
                         <div className="col mb-5" key={product.id}>
-                            <div className="card h-100" style={{ width: "18rem" }}>
-                                <img className="card-img-top" src={product.thumbnail} style={{ width: "17.8rem", height: "15rem" }} />
+                            <div className="card h-100" style={{ width: "15rem" }}>
+                                <img className="card-img-top" src={product.thumbnail} style={{ width: "15rem", height: "15rem" }} />
                                 <div className="card-body p-4">
                                     <div className="text-center">
                                         <h5 className="fw-bolder">{product.title}</h5>
